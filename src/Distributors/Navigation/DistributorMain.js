@@ -1,16 +1,16 @@
 import { StyleSheet, View } from 'react-native'
 import React from 'react'
-import AdminTabs from './AdminTabs'
+import DistributorTabs from '../Navigation/DistributorTabs'
 
-const Main = () => {
+const DistributorMain= () => {
   return (
     <View style={styles.container}>
-      <AdminTabs />
+      <DistributorTabs />
     </View>
   )
 }
 
-export default Main
+export default DistributorMain
 
 const styles = StyleSheet.create({
   container:{

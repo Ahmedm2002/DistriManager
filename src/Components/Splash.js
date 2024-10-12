@@ -4,8 +4,8 @@ import React, { useEffect } from 'react';
 function Splash({navigation}) {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('Main');
-    }, 2000);
+      navigation.navigate('AdminMain');
+    }, 1500);
   }, []);
 
   return (

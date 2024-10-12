@@ -29,6 +29,8 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 10,
     paddingVertical: 5,
+    marginTop:5,
+    // backgroundColor:'green'
   },
   searchBar: {
     flexDirection: 'row',

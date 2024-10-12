@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View, Image} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {account, distributors, home, orders} from './Images/index';
+import {account, distributors, home, orders} from '../../../assests/index';
 import {Account, Distributors, Home, Orders} from '../Screens/index';
 
 const Bottom = createBottomTabNavigator();

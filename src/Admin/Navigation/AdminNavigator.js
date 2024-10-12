@@ -1,12 +1,12 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import Splash from '../Screens/Splash';
-import Tabs from './Tabs';
+import Splash from '../../Components/Splash';
+import Tabs from './AdminTabs';
 
 const Stack = createStackNavigator();
 
-function AppNavigator() {
+function AdminNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -18,7 +18,7 @@ function AppNavigator() {
         />
         
         <Stack.Screen
-          name="Main"
+          name="AdminMain"
           component={Tabs}
           options={{headerShown: false}}
         />
@@ -28,7 +28,7 @@ function AppNavigator() {
   );
 }
 
-export default AppNavigator;
+export default AdminNavigator;
 
 /*
 Three Types of Navigators 

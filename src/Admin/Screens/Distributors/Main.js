@@ -24,8 +24,10 @@ export default Main;
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'flex-start', 
-    marginLeft:15 
+    alignItems: 'flex-end', 
+    marginRight:15,
+    marginVertical:5,
+    // backgroundColor:'red'
   },
   button: {
     flexDirection: 'row',
